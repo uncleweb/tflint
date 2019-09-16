@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsElastiCacheClusterInvalidTypeRule checks whether "aws_elasticache_cluster" has invalid node type.
@@ -86,7 +86,7 @@ func (r *AwsElastiCacheClusterInvalidTypeRule) Severity() string {
 
 // Link returns the rule reference link
 func (r *AwsElastiCacheClusterInvalidTypeRule) Link() string {
-	return "https://github.com/wata727/tflint/blob/master/docs/aws_elasticache_cluster_invalid_type.md"
+	return "https://github.com/uncleweb/tflint/blob/master/docs/aws_elasticache_cluster_invalid_type.md"
 }
 
 // Check checks whether "aws_elasticache_cluster" has invalid node type.

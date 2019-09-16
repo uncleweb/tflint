@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/golang/mock/gomock"
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/client"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/client"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 func Test_AwsInstanceInvalidAMI_invalid(t *testing.T) {

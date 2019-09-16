@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsDBInstanceInvalidTypeRule checks whether "aws_db_instance" has invalid intance type.

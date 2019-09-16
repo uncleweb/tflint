@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsInstanceInvalidAMIRule checks whether "aws_instance" has invalid AMI ID

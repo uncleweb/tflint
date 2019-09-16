@@ -7,7 +7,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 func Test_prettyPrint(t *testing.T) {

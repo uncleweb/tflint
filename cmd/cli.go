@@ -12,10 +12,10 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"github.com/spf13/afero"
 
-	"github.com/wata727/tflint/formatter"
-	"github.com/wata727/tflint/project"
-	"github.com/wata727/tflint/rules"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/formatter"
+	"github.com/uncleweb/tflint/project"
+	"github.com/uncleweb/tflint/rules"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // Exit codes are int values that represent an exit code for a particular error.

@@ -4,8 +4,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/wata727/tflint/client"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/client"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // Options is an option specified by arguments.

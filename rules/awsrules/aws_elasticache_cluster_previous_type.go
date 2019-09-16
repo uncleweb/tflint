@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/project"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/project"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsElastiCacheClusterPreviousTypeRule checks whether the resource uses previous generation node type

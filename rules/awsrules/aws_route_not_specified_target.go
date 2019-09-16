@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/project"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/project"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsRouteNotSpecifiedTargetRule checks whether a route definition has a routing target

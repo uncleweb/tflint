@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 func Test_jsonPrint(t *testing.T) {

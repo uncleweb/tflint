@@ -1,6 +1,6 @@
 package formatter
 
-import "github.com/wata727/tflint/tflint"
+import "github.com/uncleweb/tflint/tflint"
 
 type testRule struct{}
 
