@@ -26,7 +26,7 @@ checksum:
   name_template: 'checksums.txt'
 release:
   github:
-    owner: wata727
+    owner: uncleweb
     name: tflint
   draft: true
 snapshot:

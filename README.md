@@ -1,8 +1,8 @@
 # TFLint
-[![Build Status](https://travis-ci.org/wata727/tflint.svg?branch=master)](https://travis-ci.org/wata727/tflint)
-[![GitHub release](https://img.shields.io/github/release/wata727/tflint.svg)](https://github.com/uncleweb/tflint/releases/latest)
+[![Build Status](https://travis-ci.org/uncleweb/tflint.svg?branch=master)](https://travis-ci.org/uncleweb/tflint)
+[![GitHub release](https://img.shields.io/github/release/uncleweb/tflint.svg)](https://github.com/uncleweb/tflint/releases/latest)
 [![Terraform Compatibility](https://img.shields.io/badge/terraform-%3E%3D%200.12-blue)](docs/guides/compatibility.md)
-[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/wata727/tflint/)
+[![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/uncleweb/tflint/)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-blue.svg)](LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/uncleweb/tflint)](https://goreportcard.com/report/github.com/uncleweb/tflint)
 
@@ -40,7 +40,7 @@ $ install tflint /usr/local/tflint/bin
 $ tflint -v
 ```
 
-For Linux based OS, you can use the [`install_linux.sh`](https://raw.githubusercontent.com/wata727/tflint/master/install_linux.sh) to automate the installation process.
+For Linux based OS, you can use the [`install_linux.sh`](https://raw.githubusercontent.com/uncleweb/tflint/master/install_linux.sh) to automate the installation process.
 
 ### Homebrew
 
@@ -52,10 +52,10 @@ $ brew install tflint
 
 ### Docker
 
-You can also use [TFLint via Docker](https://hub.docker.com/r/wata727/tflint/).
+You can also use [TFLint via Docker](https://hub.docker.com/r/uncleweb/tflint/).
 
 ```console
-$ docker run --rm -v $(pwd):/data -t wata727/tflint
+$ docker run --rm -v $(pwd):/data -t uncleweb/tflint
 ```
 
 ## Features

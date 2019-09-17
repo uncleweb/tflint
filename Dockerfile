@@ -10,7 +10,7 @@ RUN make build
 
 FROM alpine:3.9 as prod
 
-LABEL maintainer=wata727
+LABEL maintainer=uncleweb
 
 RUN apk add --no-cache ca-certificates
 

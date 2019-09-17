@@ -558,7 +558,7 @@ Patch version update. This release includes new detectors for `aws_route`
 
 ### Others
 
-- Transfer from hakamadare/tflint to wata727/tflint ([#84](https://github.com/uncleweb/tflint/pull/84))
+- Transfer from hakamadare/tflint to uncleweb/tflint ([#84](https://github.com/uncleweb/tflint/pull/84))
 
 ## 0.3.3 (2017-04-02)
 
