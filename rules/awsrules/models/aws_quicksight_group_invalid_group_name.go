@@ -7,7 +7,7 @@ import (
 	"regexp"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsQuicksightGroupInvalidGroupNameRule checks the pattern is valid

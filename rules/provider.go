@@ -3,9 +3,9 @@ package rules
 import (
 	"log"
 
-	"github.com/wata727/tflint/rules/awsrules"
-	"github.com/wata727/tflint/rules/terraformrules"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/rules/awsrules"
+	"github.com/uncleweb/tflint/rules/terraformrules"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // Rule is an implementation that receives a Runner and inspects for resources and modules.

@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/hcl2/hclparse"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/terraform-providers/terraform-provider-aws/aws"
-	"github.com/wata727/tflint/tools/utils"
+	"github.com/uncleweb/tflint/tools/utils"
 )
 
 type definition struct {

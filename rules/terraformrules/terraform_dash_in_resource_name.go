@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/wata727/tflint/project"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/project"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // TerraformDashInResourceNameRule checks whether outputs have descriptions

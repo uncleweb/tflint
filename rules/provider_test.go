@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/wata727/tflint/rules/awsrules"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/rules/awsrules"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 func Test_NewRules(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/wata727/tflint/client"
+	"github.com/uncleweb/tflint/client"
 	"github.com/zclconf/go-cty/cty"
 )
 

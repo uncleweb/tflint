@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/wata727/tflint/tools/utils"
+	"github.com/uncleweb/tflint/tools/utils"
 )
 
 type metadata struct {

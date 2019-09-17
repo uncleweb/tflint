@@ -5,7 +5,7 @@ package models
 import (
 	"testing"
 
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 func Test_AwsCloudwatchLogDestinationInvalidNameRule(t *testing.T) {

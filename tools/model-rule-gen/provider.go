@@ -1,6 +1,6 @@
 package main
 
-import "github.com/wata727/tflint/tools/utils"
+import "github.com/uncleweb/tflint/tools/utils"
 
 type providerMeta struct {
 	RuleNameCCList []string

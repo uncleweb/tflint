@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/terraform/configs"
-	"github.com/wata727/tflint/project"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/project"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // TerraformModulePinnedSourceRule checks unpinned or default version module source

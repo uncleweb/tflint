@@ -1,4 +1,4 @@
-module github.com/wata727/tflint/tools
+module github.com/uncleweb/tflint/tools
 
 go 1.12
 

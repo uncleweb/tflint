@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/wata727/tflint/client"
+	"github.com/uncleweb/tflint/client"
 )
 
 func Test_LoadConfig(t *testing.T) {
@@ -41,7 +41,7 @@ func Test_LoadConfig(t *testing.T) {
 					"aws_instance_previous_type": true,
 				},
 				IgnoreModule: map[string]bool{
-					"github.com/wata727/example-module": true,
+					"github.com/uncleweb/example-module": true,
 				},
 				Varfile:   []string{"example1.tfvars", "example2.tfvars"},
 				Variables: []string{"foo=bar", "bar=['foo']"},
@@ -175,8 +175,8 @@ func Test_Merge(t *testing.T) {
 			Region:    "us-east-1",
 		},
 		IgnoreModule: map[string]bool{
-			"github.com/wata727/example-1": true,
-			"github.com/wata727/example-2": false,
+			"github.com/uncleweb/example-1": true,
+			"github.com/uncleweb/example-2": false,
 		},
 		IgnoreRule: map[string]bool{
 			"aws_instance_invalid_type": false,
@@ -233,8 +233,8 @@ func Test_Merge(t *testing.T) {
 					Region:    "us-east-1",
 				},
 				IgnoreModule: map[string]bool{
-					"github.com/wata727/example-1": true,
-					"github.com/wata727/example-2": false,
+					"github.com/uncleweb/example-1": true,
+					"github.com/uncleweb/example-2": false,
 				},
 				IgnoreRule: map[string]bool{
 					"aws_instance_invalid_type": false,
@@ -264,8 +264,8 @@ func Test_Merge(t *testing.T) {
 					CredsFile: "~/.aws/myapp",
 				},
 				IgnoreModule: map[string]bool{
-					"github.com/wata727/example-2": true,
-					"github.com/wata727/example-3": false,
+					"github.com/uncleweb/example-2": true,
+					"github.com/uncleweb/example-3": false,
 				},
 				IgnoreRule: map[string]bool{
 					"aws_instance_invalid_ami":   false,
@@ -296,9 +296,9 @@ func Test_Merge(t *testing.T) {
 					CredsFile: "~/.aws/myapp",
 				},
 				IgnoreModule: map[string]bool{
-					"github.com/wata727/example-1": true,
-					"github.com/wata727/example-2": true,
-					"github.com/wata727/example-3": false,
+					"github.com/uncleweb/example-1": true,
+					"github.com/uncleweb/example-2": true,
+					"github.com/uncleweb/example-3": false,
 				},
 				IgnoreRule: map[string]bool{
 					"aws_instance_invalid_type":  false,
@@ -344,8 +344,8 @@ func Test_copy(t *testing.T) {
 			Region:    "us-east-1",
 		},
 		IgnoreModule: map[string]bool{
-			"github.com/wata727/example-1": true,
-			"github.com/wata727/example-2": false,
+			"github.com/uncleweb/example-1": true,
+			"github.com/uncleweb/example-2": false,
 		},
 		IgnoreRule: map[string]bool{
 			"aws_instance_invalid_type": false,
@@ -399,7 +399,7 @@ func Test_copy(t *testing.T) {
 		{
 			Name: "IgnoreModule",
 			SideEffect: func(c *Config) {
-				c.IgnoreModule["github.com/wata727/example-1"] = false
+				c.IgnoreModule["github.com/uncleweb/example-1"] = false
 			},
 		},
 		{

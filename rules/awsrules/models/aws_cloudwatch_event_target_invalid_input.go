@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsCloudwatchEventTargetInvalidInputRule checks the pattern is valid

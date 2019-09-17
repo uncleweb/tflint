@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/wata727/tflint/cmd"
-	"github.com/wata727/tflint/formatter"
+	"github.com/uncleweb/tflint/cmd"
+	"github.com/uncleweb/tflint/formatter"
 )
 
 func TestMain(m *testing.M) {

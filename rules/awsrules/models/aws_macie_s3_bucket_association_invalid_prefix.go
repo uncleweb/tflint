@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl2/hcl"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // AwsMacieS3BucketAssociationInvalidPrefixRule checks the pattern is valid

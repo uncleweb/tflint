@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/wata727/tflint/project"
-	"github.com/wata727/tflint/tflint"
+	"github.com/uncleweb/tflint/project"
+	"github.com/uncleweb/tflint/tflint"
 )
 
 // TerraformDocumentedVariablesRule checks whether variables have descriptions

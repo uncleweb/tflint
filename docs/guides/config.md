@@ -20,7 +20,7 @@ config {
   }
 
   ignore_module = {
-    "github.com/wata727/example-module" = true
+    "github.com/uncleweb/example-module" = true
   }
 
   varfile = ["example1.tfvars", "example2.tfvars"]
